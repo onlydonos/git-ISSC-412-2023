@@ -3,3 +3,5 @@ Comandos
 - git status
 - git status 
 - git commit 
+- git fetch
+- git pull
