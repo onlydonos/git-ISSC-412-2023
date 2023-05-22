@@ -35,5 +35,6 @@ En otras palabras, descarga los commits que hay em la remota y falta en la local
 Ej: git pull 
 
 Ramas:
-TODO: Agregar definicion de ramas.
+Las ramas nos permiten trabajar con el repositorio sin alterar la estabilidad dde la rama princial como cualquier otra rama hay una
+local y una remota. Las ramas parten de un commit de origen.
 
