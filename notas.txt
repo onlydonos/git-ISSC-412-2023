@@ -37,8 +37,20 @@ Ej: git pull
 Ramas:
 Las ramas nos permiten trabajar con el repositorio sin alterar la estabilidad dde la rama princial como cualquier otra rama hay una
 local y una remota. Las ramas parten de un commit de origen.
+
 Integracion de ramas: 
 Para este fin, se utiliza la operacion "merge".
 Un merge combina los commits de una rama hacia a otra en un solo commit
 conocido como un "merge commit".
+
+Resolucion de conflictos. 
+Estrategias:
+1. Merge Commit (Crea un merge commit con cambios aplicados en el orden que el desarrolador elija.)
+2. Rebase (cambia el punto de origen de una rama, resolviendo conflictos durante la operacion.
+Requiere un "Force push" para sobreescribir la rama remota.)
+
+Pull request:
+Solicitra la aprobacion de los cambios en una rama 
+a otro colaborador, previo a la integracion de las 2
+ramas (merge)
 
